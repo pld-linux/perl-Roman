@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Roman
 Summary:	Perl module for conversion between Roman and Arabic numerals
-Summary(pl):	Modu³ perla do konwersji miêdzy liczbami rzymskimi a arabskimi
+Summary(pl):	Modu³ Perla do konwersji miêdzy liczbami rzymskimi a arabskimi
 Name:		perl-%{pnam}
 Version:	1.1
 Release:	1
@@ -16,12 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package provides some functions which help conversion of numeric notation
-between Roman and Arabic.
+This package provides some functions which help conversion of numeric
+notation between Roman and Arabic.
 
 %description -l pl
-Pakiet udostêpnia kilka funkcji które pomagaj± w konwersji numerycznych notacji
-pomiêdzy liczbami rzymskimi a arabskimi.
+Pakiet udostêpnia kilka funkcji które pomagaj± w konwersji
+numerycznych notacji pomiêdzy liczbami rzymskimi a arabskimi.
 
 %prep
 %setup -q -n %{pnam}-%{version}
