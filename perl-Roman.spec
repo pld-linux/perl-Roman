@@ -1,5 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Roman
+%define		pnam	Roman
 Summary:	Perl module for conversion between Roman and Arabic numerals
 Summary(pl):	Modu³ Perla do konwersji miêdzy liczbami rzymskimi a arabskimi
 Name:		perl-%{pnam}
