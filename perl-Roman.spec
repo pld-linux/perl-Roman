@@ -9,6 +9,7 @@ Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pnam}/%{pnam}-%{version}.tar.gz
+# Source0-md5:	67b0e6affdc50fdf28cfc438c045fd9b
 URL:		http://search.cpan.org/~ozawa/Roman-1.1/Roman.pm
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
