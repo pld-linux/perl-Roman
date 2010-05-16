@@ -17,6 +17,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/C/CH/CHORNY/%{pnam}-%{version}.z
 URL:		http://search.cpan.org/dist/Roman/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
