@@ -42,7 +42,7 @@ numerycznych notacji pomiędzy liczbami rzymskimi a arabskimi.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
+%{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
@@ -52,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Roman.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Roman.3pm*
